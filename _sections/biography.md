@@ -1,7 +1,7 @@
 ---
-title: Bio
+title: About Me
 icon: fa-user
-order: 2
+order: 3
 ---
 
 I received my M.Sc. degree in Electrical Engineering and Information Technology from the University of Stuttgart, Germany, in 2018.
