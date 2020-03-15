@@ -5,32 +5,34 @@ order: 5
 ---
 
 <style>
-.column {
-  float: left;
-  width: 50%;
-  padding: 40px;
+.col_left {
+	float: left;
+	width: 50%;
+}
+.col_right {
+	float: right;
+	width: 50%;
+	padding-left: 40px;
 }
 
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 </style>
 
 <div class="row">
-	<div class="column">
+	<div class="col_left">
 		<div align="right">
-			<img src="assets/images/avatar.jpg" style="width:60%" title="Larissa Triess" alt="avatar">
+			<p>
+				<b>Larissa Triess</b>, M.Sc.<br>
+				PhD Candidate
+			</p>
 		</div>
 	</div>
-	<div class="column">
+	<div class="col_right">
 		<div align="left">
-			<p>
-			<b>Larissa Triess</b>, M.Sc.<br>
-			PhD Candidate
-			</p>
-
 			<p>
 			Mercedes-Benz AG<br>
 			Research and Development<br>
@@ -38,7 +40,8 @@ order: 5
 			</p>
 
 			<p>
-			&lt;first-name&gt;.&lt;last-name&gt;&lt;at&gt;daimler.com
+				office&nbsp;&nbsp;&nbsp;<a href="mailto:larissa.triess@daimler.com" class="far fa-envelope"></a>&nbsp;&nbsp;&nbsp;&lt;first-name&gt;.&lt;last-name&gt;&lt;at&gt;daimler.com<br>
+				private&nbsp;&nbsp;&nbsp;<a href="mailto:mail@triess.eu" class="far fa-envelope"></a>&nbsp;&nbsp;&nbsp;mail&lt;at&gt;&lt;last-name&gt;.eu
 			</p>
 		</div>
 	</div>
