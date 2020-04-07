@@ -1,6 +1,6 @@
 ---
 title: About Me
-icon: fa-user
+icon: fa-user-graduate
 order: 3
 ---
 
