@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+{%- assign _sections = site.sections | sort: 'order' -%}
+
+<!-- Navigation-->
+{%- include nav.html section_items=_sections -%}
+
+<!-- Page Content-->
+<div class="container-fluid p-0">
+
+    <!-- About-->
+    {%- include landing.html -%}
+
+    <!-- Sections -->
+    {%- assign _sections = site.sections | sort: 'order' -%}
+    {%- for _section in _sections -%}
+        <hr class="m-0" />
+        {%- include section.html title=_section.title content=_section.content -%}
+    {%- endfor -%}
+
+</div>
