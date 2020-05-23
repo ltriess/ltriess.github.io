@@ -1,0 +1,107 @@
+---
+title: Publications
+order: 1
+---
+
+<div class="d-flex flex-column flex-md-row justify-content-between mb-2">
+    <div class="flex-grow-1">
+        <h3>Conference Papers</h3>
+    </div>
+</div>
+
+<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+    <div class="flex-grow-1">
+        <div class="subheading mb-0"><span class="text-primary">Scan-based Semantic Segmentation of LiDAR Point Clouds: An Experimental Study</span></div>
+        <div class="mb-2">IEEE Intelligent Vehicles Symposium (IV) 2020</div>
+        <div class="mb-3">Larissa T. Triess, David Peter, Christoph B. Rist, J. Marius Zöllner</div>
+        <div class="mb-3">
+            Autonomous vehicles need to have a semantic understanding of the three-dimensional world around them in order to reason about their environment.
+            State of the art methods use deep neural networks to predict semantic classes for each point in a LiDAR scan.
+            A powerful and efficient way to process LiDAR measurements is to use two-dimensional, image- like projections.
+            In this work, we perform a comprehensive experimental study of image-based semantic segmentation architectures for LiDAR point clouds.
+            We demonstrate various techniques to boost the performance and to improve runtime as well as memory constraints.
+        </div>
+
+        <div class="mb-5"><img class="img-fluid img-centered img-zoom mx-auto mb-2" width="80%" src="assets/img/sections/teaser_scan-semseg.png" alt="" /></div>
+
+        <a target=_blank href=https://arxiv.org/pdf/2004.11803.pdf class="btn btn-dark"><i class="fas fa-file-pdf" aria-hidden=true></i>&nbsp;pdf</a>
+        <a target=_blank href=https://larissa.triess.eu/scan-semseg class="btn btn-light"><i class="fa fa-rocket" aria-hidden=true></i>&nbsp;project</a>
+        <a target=_blank href=https://larissa.triess.eu/scan-semseg#code class="btn btn-light"><i class="fa fa-code" aria-hidden=true></i>&nbsp;code</a>
+        <button class="btn btn-light" onclick="document.getElementById('idtriess2020arxiv').style.display='block'"><i class="fa fa-quote-left" aria-hidden=true></i>&nbsp;cite</button>
+        <div id="idtriess2020arxiv" class="modal">
+            <span onclick="document.getElementById('idtriess2020arxiv').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <div class="modal-content">
+                <p id="bibtex_triess2020arxiv">
+                    @article{triess2020arxiv,<br>
+                        &emsp;title={Scan-based Semantic Segmentation of LiDAR Point Clouds: An Experimental Study},<br>
+                        &emsp;author={Triess, Larissa T. and Peter, David and Rist, Christoph B. and Z\"ollner, J. Marius},<br>
+                        &emsp;journal={arxiv},<br>
+                        &emsp;year={2020}<br>
+                    }
+                </p>
+                <button class="btn btn-light" onclick="copyToClipboard('#bibtex_triess2020arxiv')"><i class="far fa-copy"></i>&nbsp;copy</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+    <div class="flex-grow-1">
+        <div class="subheading mb-0"><span class="text-primary">CNN-based synthesis of realistic high-resolution LiDAR data</span></div>
+        <div class="mb-2">IEEE Intelligent Vehicles Symposium (IV) 2019</div>
+        <div class="mb-3">Larissa T. Triess, David Peter, Christoph B. Rist, Markus Enzweiler, J. Marius Zöllner</div>
+        <div class="mb-3">
+            This paper presents a novel CNN-based approach for synthesizing high-resolution LiDAR point cloud data.
+            Our approach generates semantically and perceptually realistic results with guidance from specialized loss-functions.
+            First, we utilize a modified per-point loss that addresses missing LiDAR point measurements.
+            Second, we align the quality of our generated output with real-world sensor data by applying a perceptual loss.
+            <br>
+            In large-scale experiments on real-world datasets, we evaluate both the geometric accuracy and semantic segmentation performance using our generated data vs. ground truth.
+            In a mean opinion score testing we further assess the perceptual quality of our generated point clouds.
+            Our results demonstrate a significant quantitative and qualitative improvement in both geometry and semantics over traditional non CNN-based up-sampling methods
+        </div>
+
+        <div class="mb-5"><img class="img-fluid img-centered img-zoom mx-auto mb-2" width="80%" src="assets/img/sections/teaser_pc-upsampling.png" alt="" /></div>
+
+        <a target=_blank href=https://arxiv.org/pdf/1907.00787.pdf class="btn btn-dark"><i class="fas fa-file-pdf" aria-hidden=true></i>&nbsp;pdf</a>
+        <a target=_blank href=https://larissa.triess.eu/pc-upsampling class="btn btn-light"><i class="fa fa-rocket" aria-hidden=true></i>&nbsp;project</a>
+        <button class="btn btn-light" onclick="document.getElementById('idtriess2019iv').style.display='block'"><i class="fa fa-quote-left" aria-hidden=true></i>&nbsp;cite</button>
+        <div id="idtriess2019iv" class="modal">
+            <span onclick="document.getElementById('idtriess2019iv').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <div class="modal-content">
+                <p id="bibtex_triess2019iv">
+                    @inproceedings{triess2019iv,<br>
+                        &emsp;author={Triess, Larissa T. and Peter, David and Rist, Christoph B. and Enzweiler, Markus and Z\"ollner, J. Marius},<br>
+                        &emsp;booktitle={2019 IEEE Intelligent Vehicles Symposium (IV)},<br>
+                        &emsp;title={CNN-based synthesis of realistic high-resolution LiDAR data},<br>
+                        &emsp;year={2019},<br>
+                        &emsp;pages={1512-1519},<br>
+                    }
+                </p>
+                <button class="btn btn-light" onclick="copyToClipboard('#bibtex_triess2019iv')"><i class="far fa-copy"></i>&nbsp;copy</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="d-flex flex-column flex-md-row justify-content-between mb-2">
+    <div class="flex-grow-1">
+        <h3>Patents</h3>
+    </div>
+</div>
+
+<div class="d-flex flex-column flex-md-row justify-content-between mb-2">
+    <div class="flex-grow-1">
+        <div class="subheading mb-0"><a href="https://patents.google.com/patent/DE102019003621A1">DE102019003621A1</a></div>
+        <div>Triess, Larissa; Peter, David. 2020. Verfahren zur Verarbeitung von Lidarsensordaten.</div>
+        <div>German Patent DE102019003621A1, filed 23.05.2019, issued 02.01.2020.</div>
+    </div>
+</div>
+
+<div class="d-flex flex-column flex-md-row justify-content-between">
+    <div class="flex-grow-1">
+        <div class="subheading mb-0"><span class="text-primary">XXX</span></div>
+        <div>Triess, Larissa. 2020. Verfahren zur Transformation erfasster Sensordaten aus einer ersten Datendomäne in eine zweite Datendomäne.</div>
+        <div>German Patent, filed 09.03.2020. Patent Pending.</div>
+    </div>
+</div>
