@@ -516,32 +516,6 @@ mark,
   color: #6c757d;
 }
 
-.bibtex {
-    display: block;
-    padding: 9.5px;
-    margin: 0 0 0;
-    font-size: 0.7rem;
-    line-height: 1.42857143;
-    color: #333;
-    word-break: break-all;
-    word-wrap: break-word;
-    border-radius: 4px;
-    white-space: pre-wrap;
-    font-family: monospace;
-    padding-bottom: 0;
-}
-
-.bibtex-toolbar {
-    height: 30px;
-    width: 100%;
-    text-align: right;
-    margin-top: -30px;
-    padding-right: 9.5px;
-    box-sizing: border-box;
-    color: #bbb;
-    cursor: pointer;
-}
-
 code {
   font-size: 87.5%;
   color: #e83e8c;
