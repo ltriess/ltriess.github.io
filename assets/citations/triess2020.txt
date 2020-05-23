@@ -1,6 +1,0 @@
-@article{triess2020,
-  title={{Scan-based Semantic Segmentation of LiDAR Point Clouds: An Experimental Study}},
-  author={Triess, Larissa T. and Peter, David and Rist, Christoph B. and Z\"ollner, J. Marius},
-  journal={arxiv},
-  year={2020}
-}
