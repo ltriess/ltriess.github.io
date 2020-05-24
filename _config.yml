@@ -17,7 +17,7 @@ title: Larissa Triess | Personal Webpage
 author: Larissa Triess
 description: Personal Webpage of Larissa Triess, PhD student
 icon: assets/img/favicon.ico # path to page icon
-teaser: # path to page preview image
+teaser: assets/img/teaser.jpg # path to page preview image
 
 # Settings for navigation bar
 avatar: assets/img/avatar.jpg # path to profile avatar image
