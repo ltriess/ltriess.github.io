@@ -5,7 +5,66 @@ order: 1
 
 <div class="d-flex flex-column flex-md-row justify-content-between mb-2">
     <div class="flex-grow-1">
-        <h3>Conference Papers</h3>
+        <h3>Papers</h3>
+    </div>
+</div>
+
+<div id="paper_scan-semseg" class="d-flex flex-column flex-md-row justify-content-between mb-5">
+    <div class="flex-grow-1">
+        <div class="subheading mb-0"><span class="text-primary">A Survey on Deep Domain Adaptation for LiDAR Perception</span></div>
+        <div class="mb-2">IEEE Intelligent Vehicles Symposium (IV) 2021, Workshop Autonomy@Scale</div>
+        <div class="mb-3">Larissa T. Triess, Mariella Dreissig, Christoph B. Rist, J. Marius Zöllner</div>
+        <div class="mb-3">
+            Scalable systems for automated driving have toreliably cope with an open-world setting.
+            This means, theperception systems are exposed to drastic domain shifts, likechanges in weather conditions, time-dependent aspects, or geographic regions.
+            Covering all domains with annotated data is impossible because of the endless variations of domains and the time-consuming and expensive annotation process.
+            Furthermore, fast development cycles of the system additionally introduce hardware changes, such as sensor types and vehicle setups, and the required knowledge transfer from simulation.
+
+            To enable scalable automated driving, it is therefore crucial to address these domain shifts in a robust and efficient manner.
+            Over the last years, a vast amount of different domain adaptation techniques evolved.
+            There already exists a number of survey papers for domain adaptation on camera images, however, a survey for LiDAR perception is absent.
+            Nevertheless, LiDAR is a vital sensor for automated driving that provides detailed 3D scans of the vehicle’s surroundings.
+            To stimulate future research, this paper presents a comprehensive review of recent progress in domain adaptation methods and formulates interesting research questions specifically targeted towards LiDAR perception.
+        </div>
+
+        <div style="text-align: center; align-content: center; width: 50%">
+            <div class="row mb-5">
+                <div class="col row-cols-1">
+                    <a href="/assets/img/sections/teaser_survey.svg">
+                        <img class="img-fluid img-centered img-zoom mx-auto" src="/assets/img/sections/teaser_survey.svg" alt="icon-uda-survey"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <a target=_blank href=https://arxiv.org/pdf/2106.02377.pdf class="btn btn-dark"><i class="fas fa-file-pdf" aria-hidden=true></i>&nbsp;pdf</a>
+        <a target=_blank href=https://larissa.triess.eu/survey-uda-lidar class="btn btn-light"><i class="fa fa-rocket" aria-hidden=true></i>&nbsp;project</a>
+        <button class="btn btn-light" onclick="document.getElementById('idtriess2021ivwork').style.display='block'"><i class="fa fa-quote-left" aria-hidden=true></i>&nbsp;cite</button>
+        <div id="idtriess2021ivwork" class="modal">
+            <div class="modal-dialog-centered">
+                <div class="modal-content">
+                    <p id="bibtex_triess2021ivwork">
+                        @inproceedings{triess2021iv,<br>
+                            &emsp;title={A Survey on Deep Domain Adaptation for LiDAR Perception},<br>
+                            &emsp;author={Triess, Larissa T. and Dreissig, Mariella and Rist, Christoph B. and Z\"ollner, J. Marius},<br>
+                            &emsp;booktitle={Proc. IEEE Intelligent Vehicles Symposium (IV) Workshops},<br>
+                            &emsp;year={2021}<br>
+                        }
+                    </p>
+
+                    <div style="text-align: center;">
+                        <div class="row">
+                            <div class="col row-cols-1">
+                                <button class="btn btn-outline-primary" style="width: 100%;" onclick="copyToClipboard('#bibtex_triess2021ivwork')"><i class="far fa-copy"></i>&nbsp;copy</button>
+                            </div>
+                            <div class="col row-cols-1">
+                                <button class="btn btn-outline-dark" style="width: 100%;" onclick="document.getElementById('idtriess2021ivwork').style.display='none'"><i class="fas fa-times"></i>&nbsp;close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -137,18 +196,58 @@ order: 1
     </div>
 </div>
 
-<div class="d-flex flex-column flex-md-row justify-content-between mb-2">
+<div class="d-flex flex-column flex-md-row justify-content-between">
     <div class="flex-grow-1">
-        <div class="subheading mb-0"><a href="https://patents.google.com/patent/DE102019003621A1">DE102019003621A1</a></div>
-        <div>Triess, Larissa; Peter, David. 2020. Verfahren zur Verarbeitung von Lidarsensordaten.</div>
-        <div>German Patent DE102019003621A1, filed 23.05.2019, issued 02.01.2020.</div>
+        <div class="subheading mb-0">DE102021002684</div>
+        <div><u>L.T. Triess</u>, C.B. Rist. 2021. Method for semantic segmentation of first sensor data of a first sensor type.</div>
+        <div>German Patent DE102021002684. Filed 21.05.2021. <i>Patent pending.</i></div>
     </div>
 </div>
 
 <div class="d-flex flex-column flex-md-row justify-content-between">
     <div class="flex-grow-1">
-        <div class="subheading mb-0"><a href="https://patents.google.com/patent/DE102020001541A1">DE102020001541A1</a></div>
-        <div>Triess, Larissa. 2020. Method for transforming acquired sensor data from a first data domain into a second data domain.</div>
-        <div>German Patent DE102020001541A1, filed 09.03.2020. issued 01.10.2020.</div>
+        <div class="subheading mb-0">DE102021002689</div>
+        <div><u>L.T. Triess</u>, D. Peter. 2021. Method for transforming sensor data.</div>
+        <div>German Patent DE102021002689. Filed 21.05.2021. <i>Patent pending.</i></div>
+    </div>
+</div>
+
+<div class="d-flex flex-column flex-md-row justify-content-between">
+    <div class="flex-grow-1">
+        <div class="subheading mb-0">DE102021002559</div>
+        <div><u>L.T. Triess</u>, D. Peter. 2021. Method for generating realistic maps of beam outages in simulated LiDAR data.</div>
+        <div>German Patent DE102021002559. Filed 17.05.2021. <i>Patent pending.</i></div>
+    </div>
+</div>
+
+<div class="d-flex flex-column flex-md-row justify-content-between">
+    <div class="flex-grow-1">
+        <div class="subheading mb-0"><a href="https://patents.google.com/patent/DE102021001043A1/en">DE102021001043A1</a></div>
+        <div><u>L.T. Triess</u>, D. Peter. 2021. Method for automatic detection and localization of anomalies in data acquired by means of a LiDAR sensor.</div>
+        <div>German Patent DE102021001043A1. Filed 26.02.2021. Issued 15.04.2021.</div>
+    </div>
+</div>
+
+<div class="d-flex flex-column flex-md-row justify-content-between">
+    <div class="flex-grow-1">
+        <div class="subheading mb-0"><a href="https://patents.google.com/patent/DE102021000803A1/en">DE102021000803A1</a></div>
+        <div><u>L.T. Triess</u>, D. Peter. 2021. Method for training a neural network of an electronic computing device of a motor vehicle.</div>
+        <div>German Patent DE102021000803A1. Filed 16.02.2021. Issued 15.04.2021.</div>
+    </div>
+</div>
+
+<div class="d-flex flex-column flex-md-row justify-content-between">
+    <div class="flex-grow-1">
+        <div class="subheading mb-0"><a href="https://patents.google.com/patent/DE102020001541A1/en">DE102020001541A1</a></div>
+        <div><u>L.T. Triess</u>. 2020. Method for transforming acquired sensor data from a first data domain into a second data domain.</div>
+        <div>German Patent DE102020001541A1. Filed 09.03.2020. Issued 01.10.2020.</div>
+    </div>
+</div>
+
+<div class="d-flex flex-column flex-md-row justify-content-between mb-2">
+    <div class="flex-grow-1">
+        <div class="subheading mb-0"><a href="https://patents.google.com/patent/DE102019003621A1/en">DE102019003621A1</a></div>
+        <div><u>L.T. Triess</u>, D. Peter. 2020. Method for processing LiDAR sensor data.</div>
+        <div>German Patent DE102019003621A1. Filed 23.05.2019. Issued 02.01.2020.</div>
     </div>
 </div>

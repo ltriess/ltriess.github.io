@@ -25,10 +25,12 @@ avatar: assets/img/avatar.jpg # path to profile avatar image
 # Settings for landing page
 landing_first: Larissa
 landing_last: Triess
-subheading: PhD Student · Deep Generative Models · Autonomous Driving · Stuttgart, Germany
+subheading: PhD Student · Deep Generative Models · Domain Adaptation · Autonomous Driving · Stuttgart, Germany
 intro: >-
-  I am a passionate student and researcher in the field of machine learning and autonomous driving.
-  The ever changing world and unpredictable future drives me to keep learning constantly.
+  Hi there! I'm Larissa, a PhD student working on autonomous driving at Mercedes-Benz AG.
+  I'm also a part of the reseach group of Prof. Marius Zöllner at Karlsruhe Institute of Technology (KIT).
+
+  My research is in the field of machine learning and 3D vision with focus on synthetsizing realistic LiDAR point clouds for domain adaptation applications.
 
 # Social settings
 email: <!-- spam-stop -->mail@triess.eu
