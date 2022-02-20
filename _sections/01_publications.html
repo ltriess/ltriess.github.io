@@ -47,6 +47,59 @@ order: 1
 <!--    </div>-->
 <!--</div>-->
 
+<div id="paper_GCPR2021Metric" class="d-flex flex-column flex-md-row justify-content-between mb-5">
+    <div class="flex-grow-1">
+        <div class="subheading mb-0"><span class="text-primary">Quantifying point cloud realism through adversarially learned latent representations</span></div>
+        <div class="mb-2">2021 German Conference on Pattern Recognition (GCPR)</div>
+        <div class="mb-3">Larissa T. Triess, David Peter, Stefan A. Baur, J. Marius Zöllner</div>
+
+        <a target=_blank href=https://arxiv.org/pdf/2109.11775.pdf class="btn btn-dark"><i class="fas fa-file-pdf" aria-hidden=true></i>&nbsp;pdf</a>
+        <a target=_blank href=https://larissa.triess.eu/lidar-metric class="btn btn-light"><i class="fa fa-rocket" aria-hidden=true></i>&nbsp;project</a>
+        <a target=_blank href=https://youtu.be/81KmoFiC0co class="btn btn-light"><i class="fa fa-video" aria-hidden=true></i>&nbsp;video</a>
+        <button class="btn btn-light" onclick="document.getElementById('idtriess2021gcpr').style.display='block'"><i class="fa fa-quote-left" aria-hidden=true></i>&nbsp;cite</button>
+        <div id="idtriess2021gcpr" class="modal">
+            <div class="modal-dialog-centered">
+                <div class="modal-content">
+                    <p id="bibtex_triess2021gcpr">
+                        @inproceedings{triess2021gcpr,<br>
+                        &emsp;title={Quantifying point cloud realism through adversarially learned latent representations},<br>
+                        &emsp;author={Triess, Larissa T. and Peter, David and Baur, Stefan A. and Z\"ollner, J. Marius},<br>
+                        &emsp;booktitle={German Conference on Pattern Recognition (GCPR)},<br>
+                        &emsp;year={2021}<br>
+                        }
+                    </p>
+
+                    <div style="text-align: center;">
+                        <div class="row">
+                            <div class="col row-cols-1">
+                                <button class="btn btn-outline-primary" style="width: 100%;" onclick="copyToClipboard('#bibtex_triess2021gcpr')"><i class="far fa-copy"></i>&nbsp;copy</button>
+                            </div>
+                            <div class="col row-cols-1">
+                                <button class="btn btn-outline-dark" style="width: 100%;" onclick="document.getElementById('idtriess2021gcpr').style.display='none'"><i class="fas fa-times"></i>&nbsp;close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-light" data-toggle="collapse" data-target="#abstract_GCPR2021Metric" aria-expanded="false" aria-controls="abstract_GCPR2021Metric">Read more...</button>
+        <div class="collapse" id="abstract_GCPR2021Metric">
+            <div class="mb-3 card card-body">
+                Judging the quality of samples synthesized by generative models can be tedious and time consuming, especially for complex data structures, such as point clouds.
+                This paper presents a novel approach to quantify the realism of local regions in LiDAR point clouds.
+                Relevant features are learned from real-world and synthetic point clouds by training on a proxy classification task.
+                Inspired by fair networks, we use an adversarial technique to discourage the encoding of dataset-specific information.
+                The resulting metric can assign a quality score to samples without requiring any task specific annotations.
+                <br>
+                In a series of experiments, we confirm the soundness of our metric by applying it in controllable task setups and on unseen data.
+                Additional experiments show reliable interpolation capabilities of the metric between data with varying degree of realism.
+                As one important application, we demonstrate how the local realism score can be used for anomaly detection in point clouds.
+                <!--TODO: add image here-->
+            </div>
+        </div>
+    </div>
+</div>
+
 <div id="paper_survey" class="d-flex flex-column flex-md-row justify-content-between mb-5">
     <div class="flex-grow-1">
         <div class="subheading mb-0"><span class="text-primary">A Survey on Deep Domain Adaptation for LiDAR Perception</span></div>
