@@ -9,33 +9,11 @@ order: 1
     </div>
 </div>
 
-<div id="paper_scan-semseg" class="d-flex flex-column flex-md-row justify-content-between mb-5">
+<div id="paper_survey" class="d-flex flex-column flex-md-row justify-content-between mb-5">
     <div class="flex-grow-1">
         <div class="subheading mb-0"><span class="text-primary">A Survey on Deep Domain Adaptation for LiDAR Perception</span></div>
         <div class="mb-2">IEEE Intelligent Vehicles Symposium (IV) 2021, Workshop Autonomy@Scale</div>
         <div class="mb-3">Larissa T. Triess, Mariella Dreissig, Christoph B. Rist, J. Marius Zöllner</div>
-        <div class="mb-3">
-            Scalable systems for automated driving have toreliably cope with an open-world setting.
-            This means, theperception systems are exposed to drastic domain shifts, likechanges in weather conditions, time-dependent aspects, or geographic regions.
-            Covering all domains with annotated data is impossible because of the endless variations of domains and the time-consuming and expensive annotation process.
-            Furthermore, fast development cycles of the system additionally introduce hardware changes, such as sensor types and vehicle setups, and the required knowledge transfer from simulation.
-
-            To enable scalable automated driving, it is therefore crucial to address these domain shifts in a robust and efficient manner.
-            Over the last years, a vast amount of different domain adaptation techniques evolved.
-            There already exists a number of survey papers for domain adaptation on camera images, however, a survey for LiDAR perception is absent.
-            Nevertheless, LiDAR is a vital sensor for automated driving that provides detailed 3D scans of the vehicle’s surroundings.
-            To stimulate future research, this paper presents a comprehensive review of recent progress in domain adaptation methods and formulates interesting research questions specifically targeted towards LiDAR perception.
-        </div>
-
-        <div style="text-align: center; align-content: center; width: 50%">
-            <div class="row mb-5">
-                <div class="col row-cols-1">
-                    <a href="/assets/img/sections/teaser_survey.svg">
-                        <img class="img-fluid img-centered img-zoom mx-auto" src="/assets/img/sections/teaser_survey.svg" alt="icon-uda-survey"/>
-                    </a>
-                </div>
-            </div>
-        </div>
 
         <a target=_blank href=https://arxiv.org/pdf/2106.02377.pdf class="btn btn-dark"><i class="fas fa-file-pdf" aria-hidden=true></i>&nbsp;pdf</a>
         <a target=_blank href=https://larissa.triess.eu/survey-uda-lidar class="btn btn-light"><i class="fa fa-rocket" aria-hidden=true></i>&nbsp;project</a>
@@ -65,6 +43,21 @@ order: 1
                 </div>
             </div>
         </div>
+        <button class="btn btn-light" data-toggle="collapse" data-target="#abstract_survey" aria-expanded="false" aria-controls="abstract_survey">Read more...</button>
+        <div class="collapse" id="abstract_survey">
+            <div class="mb-3 card card-body">
+                Scalable systems for automated driving have toreliably cope with an open-world setting.
+                This means, theperception systems are exposed to drastic domain shifts, likechanges in weather conditions, time-dependent aspects, or geographic regions.
+                Covering all domains with annotated data is impossible because of the endless variations of domains and the time-consuming and expensive annotation process.
+                Furthermore, fast development cycles of the system additionally introduce hardware changes, such as sensor types and vehicle setups, and the required knowledge transfer from simulation.
+
+                To enable scalable automated driving, it is therefore crucial to address these domain shifts in a robust and efficient manner.
+                Over the last years, a vast amount of different domain adaptation techniques evolved.
+                There already exists a number of survey papers for domain adaptation on camera images, however, a survey for LiDAR perception is absent.
+                Nevertheless, LiDAR is a vital sensor for automated driving that provides detailed 3D scans of the vehicle’s surroundings.
+                To stimulate future research, this paper presents a comprehensive review of recent progress in domain adaptation methods and formulates interesting research questions specifically targeted towards LiDAR perception.
+            </div>
+        </div>
     </div>
 </div>
 
@@ -73,38 +66,6 @@ order: 1
         <div class="subheading mb-0"><span class="text-primary">Scan-based Semantic Segmentation of LiDAR Point Clouds: An Experimental Study</span></div>
         <div class="mb-2">IEEE Intelligent Vehicles Symposium (IV) 2020</div>
         <div class="mb-3">Larissa T. Triess, David Peter, Christoph B. Rist, J. Marius Zöllner</div>
-        <div class="mb-3">
-            Autonomous vehicles need to have a semantic understanding of the three-dimensional world around them in order to reason about their environment.
-            State of the art methods use deep neural networks to predict semantic classes for each point in a LiDAR scan.
-            A powerful and efficient way to process LiDAR measurements is to use two-dimensional, image- like projections.
-            In this work, we perform a comprehensive experimental study of image-based semantic segmentation architectures for LiDAR point clouds.
-            We demonstrate various techniques to boost the performance and to improve runtime as well as memory constraints.
-        </div>
-
-        <div style="text-align: center;">
-            <div class="row mb-5">
-                <div class="col row-cols-1">
-                    <a href="/assets/img/sections/teaser_scan-semseg_01.svg">
-                        <img class="img-fluid img-centered img-zoom mx-auto" src="/assets/img/sections/teaser_scan-semseg_01.svg" alt="icon-networksize"/>
-                    </a>
-                </div>
-                <div class="col row-cols-1">
-                    <a href="/assets/img/sections/teaser_scan-semseg_02.svg">
-                        <img class="img-fluid img-centered img-zoom mx-auto" src="/assets/img/sections/teaser_scan-semseg_02.svg" alt="icon-scanunfolding"/>
-                    </a>
-                </div>
-                <div class="col row-cols-1">
-                    <a href="/assets/img/sections/teaser_scan-semseg_03.svg">
-                        <img class="img-fluid img-centered img-zoom mx-auto" src="/assets/img/sections/teaser_scan-semseg_03.svg" alt="icon-lossfunction"/>
-                    </a>
-                </div>
-                <div class="col row-cols-1">
-                    <a href="/assets/img/sections/teaser_scan-semseg_04.svg">
-                        <img class="img-fluid img-centered img-zoom mx-auto" src="/assets/img/sections/teaser_scan-semseg_04.svg" alt="icon-slc"/>
-                    </a>
-                </div>
-            </div>
-        </div>
 
         <a target=_blank href=https://arxiv.org/pdf/2004.11803.pdf class="btn btn-dark"><i class="fas fa-file-pdf" aria-hidden=true></i>&nbsp;pdf</a>
         <a target=_blank href=https://larissa.triess.eu/scan-semseg class="btn btn-light"><i class="fa fa-rocket" aria-hidden=true></i>&nbsp;project</a>
@@ -135,6 +96,42 @@ order: 1
                 </div>
             </div>
         </div>
+        <button class="btn btn-light" data-toggle="collapse" data-target="#abstract_scan-semseg" aria-expanded="false" aria-controls="abstract_scan-semseg">Read more...</button>
+        <div class="collapse" id="abstract_scan-semseg">
+            <div class="mb-3 card card-body">
+                Autonomous vehicles need to have a semantic understanding of the three-dimensional world around them in order to reason about their environment.
+                State of the art methods use deep neural networks to predict semantic classes for each point in a LiDAR scan.
+                A powerful and efficient way to process LiDAR measurements is to use two-dimensional, image- like projections.
+                In this work, we perform a comprehensive experimental study of image-based semantic segmentation architectures for LiDAR point clouds.
+                We demonstrate various techniques to boost the performance and to improve runtime as well as memory constraints.
+                <br>
+                <br>
+                <div style="text-align: center;">
+                    <div class="row mb-5">
+                        <div class="col row-cols-1">
+                            <a href="/assets/img/sections/teaser_scan-semseg_01.svg">
+                                <img class="img-fluid img-centered img-zoom mx-auto" src="/assets/img/sections/teaser_scan-semseg_01.svg" alt="icon-networksize"/>
+                            </a>
+                        </div>
+                        <div class="col row-cols-1">
+                            <a href="/assets/img/sections/teaser_scan-semseg_02.svg">
+                                <img class="img-fluid img-centered img-zoom mx-auto" src="/assets/img/sections/teaser_scan-semseg_02.svg" alt="icon-scanunfolding"/>
+                            </a>
+                        </div>
+                        <div class="col row-cols-1">
+                            <a href="/assets/img/sections/teaser_scan-semseg_03.svg">
+                                <img class="img-fluid img-centered img-zoom mx-auto" src="/assets/img/sections/teaser_scan-semseg_03.svg" alt="icon-lossfunction"/>
+                            </a>
+                        </div>
+                        <div class="col row-cols-1">
+                            <a href="/assets/img/sections/teaser_scan-semseg_04.svg">
+                                <img class="img-fluid img-centered img-zoom mx-auto" src="/assets/img/sections/teaser_scan-semseg_04.svg" alt="icon-slc"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -143,20 +140,6 @@ order: 1
         <div class="subheading mb-0"><span class="text-primary">CNN-based synthesis of realistic high-resolution LiDAR data</span></div>
         <div class="mb-2">IEEE Intelligent Vehicles Symposium (IV) 2019</div>
         <div class="mb-3">Larissa T. Triess, David Peter, Christoph B. Rist, Markus Enzweiler, J. Marius Zöllner</div>
-        <div class="mb-3">
-            This paper presents a novel CNN-based approach for synthesizing high-resolution LiDAR point cloud data.
-            Our approach generates semantically and perceptually realistic results with guidance from specialized loss-functions.
-            First, we utilize a modified per-point loss that addresses missing LiDAR point measurements.
-            Second, we align the quality of our generated output with real-world sensor data by applying a perceptual loss.
-            <br>
-            In large-scale experiments on real-world datasets, we evaluate both the geometric accuracy and semantic segmentation performance using our generated data vs. ground truth.
-            In a mean opinion score testing we further assess the perceptual quality of our generated point clouds.
-            Our results demonstrate a significant quantitative and qualitative improvement in both geometry and semantics over traditional non CNN-based up-sampling methods
-        </div>
-
-        <a href="/assets/img/sections/teaser_pc-upsampling.png">
-            <div class="mb-5"><img class="img-fluid img-centered img-zoom mx-auto mb-2" src="/assets/img/sections/teaser_pc-upsampling.png" alt="" /></div>
-        </a>
 
         <a target=_blank href=https://arxiv.org/pdf/1907.00787.pdf class="btn btn-dark"><i class="fas fa-file-pdf" aria-hidden=true></i>&nbsp;pdf</a>
         <a target=_blank href="/assets/pdf/triess2019iv_poster.pdf" class="btn btn-light"><i class="fas fa-map" aria-hidden=true></i>&nbsp;poster</a>
@@ -185,6 +168,24 @@ order: 1
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <button class="btn btn-light" data-toggle="collapse" data-target="#abstract_pc-upsampling" aria-expanded="false" aria-controls="abstract_pc-upsampling">Read more...</button>
+        <div class="collapse" id="abstract_pc-upsampling">
+            <div class="mb-3 card card-body">
+                This paper presents a novel CNN-based approach for synthesizing high-resolution LiDAR point cloud data.
+                Our approach generates semantically and perceptually realistic results with guidance from specialized loss-functions.
+                First, we utilize a modified per-point loss that addresses missing LiDAR point measurements.
+                Second, we align the quality of our generated output with real-world sensor data by applying a perceptual loss.
+                <br>
+                In large-scale experiments on real-world datasets, we evaluate both the geometric accuracy and semantic segmentation performance using our generated data vs. ground truth.
+                In a mean opinion score testing we further assess the perceptual quality of our generated point clouds.
+                Our results demonstrate a significant quantitative and qualitative improvement in both geometry and semantics over traditional non CNN-based up-sampling methods
+                <br>
+                <br>
+                <a href="/assets/img/sections/teaser_pc-upsampling.png">
+                    <div class="mb-5"><img class="img-fluid img-centered img-zoom mx-auto mb-2" src="/assets/img/sections/teaser_pc-upsampling.png" alt="" /></div>
+                </a>
             </div>
         </div>
     </div>
