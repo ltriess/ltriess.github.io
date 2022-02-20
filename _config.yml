@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Larissa Triess | Personal Webpage
 author: Larissa Triess
-description: Personal Webpage of Larissa Triess, PhD student
+description: Personal Webpage of Larissa Triess, ML Engineer
 icon: assets/img/favicon.ico # path to page icon
 teaser: assets/img/teaser.jpg # path to page preview image
 
@@ -25,16 +25,16 @@ avatar: assets/img/avatar.jpg # path to profile avatar image
 # Settings for landing page
 landing_first: Larissa
 landing_last: Triess
-subheading: PhD Student · Deep Generative Models · Domain Adaptation · Autonomous Driving · Stuttgart, Germany
+subheading: ML Engineer · Ph.D. Candidate · Autonomous Driving · Scene Understanding · Computer Vision · Stuttgart, Germany
 intro: >-
-  Hi there! I'm Larissa, a PhD student working on autonomous driving at Mercedes-Benz AG.
-  I'm also a part of the reseach group of Prof. Marius Zöllner at Karlsruhe Institute of Technology (KIT).
+  Hi there! I'm Larissa, a machine learning engineer working on autonomous driving at Mercedes-Benz.
+  I'm also a Ph.D. candidate at the Karlsruhe Institute of Technology (KIT).
 
-  My research is in the field of machine learning and 3D vision with focus on synthetsizing realistic LiDAR point clouds for domain adaptation applications.
+  My research is in the field of machine learning and 3D vision with focus on synthesizing realistic LiDAR point clouds for domain adaptation applications.
 
 # Social settings
-email: <!-- spam-stop -->mail@triess.eu
-linkedin_url: https://www.linkedin.com/in/triess-larissa
+email: mail<at>triess.eu
+linkedin_url: https://www.linkedin.com/in/ltriess
 github_url: https://github.com/ltriess
 googlescholar_url: https://scholar.google.de/citations?user=cBH8pFUAAAAJ&hl=de
 arxiv_url: http://arxiv.org/a/triess_l_1
