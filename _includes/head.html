@@ -1,55 +1,21 @@
-<head>
-    <!-- Google Analytics -->
-    {%- if site.google_analytics and jekyll.environment == 'production' -%}
-        {%- include google_analytics.html -%}
-    {%- endif -%}
+{% include base_path %}
 
-    <!-- Robots -->
-    <meta name="robots" content="{{- page.robots | default: 'index, follow' -}}" />
-    {%- unless page.canonical == false -%}<link rel="canonical" href="{{- page.url | absolute_url -}}" />{%- endunless -%}
+<meta charset="utf-8">
 
-    <!-- Title, description, author -->
-    <title>{{- site.title -}}</title>
-    <meta name="description" content="{{- site.description -}}" />
-    <meta name="author" content="{{- site.author -}}" />
+{% include seo.html %}
 
-    <!-- Open Graph -->
-    <meta property="og:title" content="{{- site.title -}}" />
-    <meta property="og:type" content="website" />
-    <link rel="icon" type="image/x-icon" href="{{- site.icon | absolute_url -}}" />
-    <meta property="og:image" content="{{- site.teaser | absolute_url -}}" />
-    <meta property="og:url" content="{{- page.url | absolute_url -}}" />
-    <meta property="og:site_name" content="{{- site.title | escape -}}" />
-    <meta property="og:description" content="{{- site.description -}}" />
+<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 
-    <!-- Preload -->
-    <link rel="preload" href="/assets/css/styles.css" as="style">
-    <link rel="preload" href="/assets/css/academicons.min.css" as="style">
-    <link rel="preload" href="/assets/css/devicon.min.css" as="style">
-    <link rel="preload" href="/assets/js/scripts.js" as="script">
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Styles -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
 
-    <!-- Font Awesome icons -->
-    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="{{ 'assets/css/academicons.min.css' | relative_url }}" />
-    <link rel="stylesheet" href="{{ 'assets/css/devicon.min.css' | relative_url }}">
+<!-- For all browsers -->
+<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
 
-    <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-
-    <!-- Core theme CSS -->
-    <link href="{{ 'assets/css/styles.css' | relative_url }}" rel="stylesheet" />
-
-    <!-- Bootstrap core JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-    <!-- Third party plugin JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="{{ 'assets/js/scripts.js' | relative_url }}"></script>
-
-</head>
+<meta http-equiv="cleartype" content="on">
