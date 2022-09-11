@@ -11,6 +11,8 @@ citation:
 [[pdf](https://arxiv.org/pdf/2202.08526.pdf)]
 [[project](https://larissa.triess.eu/continuous-generation)]
 
+![](/images/publication-triess2022aistats.png)
+
 Generative models can be used to synthesize 3D objects of high quality and diversity.
 However, there is typically no control over the properties of the generated object.
 This paper proposes a novel generative adversarial network (GAN) setup that generates 3D point cloud shapes conditioned on a continuous parameter.
