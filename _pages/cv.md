@@ -29,6 +29,7 @@ redirect_from:
   * [Mercedes-Benz AG](https://www.mercedes-benz.com/en), Stuttgart, Germany
   * Team Scene Understanding, Autonomous Driving Department, Research and Development
   * Duties include: developing a framework for automatic label generation, maintenance of ML pipelines and further development of ML algorithms, supervision of students, research within publicly funded projects, technical recruiting, external representation of the team
+  * Product Owner: lead an international team of ~6 people from Germany and ~3 people from India
   * Working under [Dr. Marius Cordts](https://scholar.google.com/citations?user=RM0ik8wAAAAJ&hl) (author of Cityscapes Dataset)
 * PhD Candidate [Dec 2018 - Sep 2021]
   * [Mercedes-Benz AG](https://www.mercedes-benz.com/en), Stuttgart, Germany
