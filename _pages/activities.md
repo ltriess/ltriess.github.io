@@ -9,16 +9,18 @@ redirect_from:
 {% include base_path %}
 
 ### Talks and Lectures
+* Scalable 3D Scene Understanding for Autonomous Driving, Munich University of Applied Science, Germany, November 2022
 * Guest Lecture on (Convolutional) Neural Networks in "Digital Image Processing", University of Stuttgart, Germany, June 2022
 * Quantifying point cloud realism through adversarially learned latent representations, German Conference on Pattern Recognition (GCPR), virtual, Oct 2021 ([video](https://youtu.be/81KmoFiC0co))
 * Deep domain adaptation for LiDAR perception, Workshop Autonomy at Scale, Intelligent Vehicles Symposium (IV), virtual, June 2021 ([more](https://www.ki-deltalearning.de/event?tx_news_pi1%5Bnews%5D=41&cHash=b097750dd2e4162b6171883b9682cbf5))
 
 ### Organizer and Chair
-* Second Workshop on Autonomy at Scale, IEEE Intelligent Vehicles Symposium, Associate Editor and Organizer, Aachen, June 2022 ([more](https://www.ki-deltalearning.de/iv2022-2nd-ws-autonomyatscale))
+* Third Workshop Autonomy@Scale, IEEE Intelligent Vehicles Symposium, Associate Editor and Organizer, Anchorage, USA, June 2023 ([more](https://sites.google.com/view/autonomyatscale2023))
+* Second Workshop Autonomy@Scale, IEEE Intelligent Vehicles Symposium, Associate Editor and Organizer, Aachen, Germany, June 2022 ([more](https://www.ki-deltalearning.de/iv2022-2nd-ws-autonomyatscale))
 
-### Paper Reviewer
+<!-- ### Paper Reviewer
 * International Conference on Artificial Intelligence and Statistics ([AISTATS](https://aistats.org)): [2022](http://aistats.org/aistats2022)
-* Intelligent Vehicles Symposium ([IV](https://ieee-iv.org)): [2020](https://2020.ieee-iv.org), [2021](https://2021.ieee-iv.org), [2022](https://iv2022.com)
+* Intelligent Vehicles Symposium ([IV](https://ieee-iv.org)): [2020](https://2020.ieee-iv.org), [2021](https://2021.ieee-iv.org), [2022](https://iv2022.com) -->
 
 ### Supervised Students
 * [Abinav Kalyanasundaram](https://www.linkedin.com/in/abinav-kalyanasundaram-8a134bb8) (master thesis on uncertainty estimation for open set detection in camera images), 2022
