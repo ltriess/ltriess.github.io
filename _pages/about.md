@@ -9,8 +9,10 @@ redirect_from:
 ---
 
 Hi there! 👋
-I'm Larissa, an autonomous driving researcher based in Stuttgart, Germany.
-I work as a machine learning engineer at Mercedes-Benz AG and pursue a PhD at the Karlsruhe Institute of Technology (KIT).
+I'm Larissa, an autonomous driving software engineer based in Stuttgart, Germany.
+I work as a machine learning engineer and product owner at [Mercedes-Benz](https://www.mercedes-benz.com/en/).
+I recently defended my PhD thesis at the [Karlsruhe Institute of Technology](https://www.kit.edu/english/index.php) (KIT).
+Additionally, I'm a self-employed software consultant, currently working as a freelancer for a medical machine learning project at [Intervall](https://intervall.io/en/).
 
 ## Things I'm good at
 
