@@ -1,11 +1,16 @@
-Files for personal [webpage](https://larissa.triess.eu).
+# Personal Webpage
 
-See more info at https://academicpages.github.io/
+This is the code for the personal website of Larissa Triess. The website is published under:
 
-## To run locally (not on GitHub Pages, to serve on your own computer)
+The website was created with the [al-folio](https://github.com/alshedivat/al-folio) theme.
 
-1. Clone the repository and made updates as detailed above
-2. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
-3. Run `bundle clean` to clean up the directory (no need to run `--force`)
-4. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-5. Run `bundle exec jekyll liveserve` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+[![deploy](https://github.com/ltriess/ltriess.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/ltriess/ltriess.github.io/actions/workflows/deploy.yml)
+[![GitHub release](https://img.shields.io/github/v/release/ltriess/ltriess.github.io)](https://github.com/ltriess/ltriess.github.io/releases/latest)
+[![GitHub license](https://img.shields.io/github/license/ltriess/ltriess.github.io?color=blue)](https://github.com/ltriess/ltriess.github.io/blob/master/LICENSE)
+
+#### Local Setup
+
+```bash
+$ bundle install
+$ bundle exec jekyll serve --lsi
+```

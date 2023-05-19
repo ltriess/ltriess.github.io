@@ -1,0 +1,115 @@
+- title: Larissa Triess
+  type: list
+  contents: Machine Learning Engineer | Product Owner for Perception, Fusion, Prediction | PhD supervisor
+
+- title: Education
+  type: time_table
+  contents:
+    - title: "Doctor of Philosophy (PhD): Computer Science"
+      institution: Karlsruhe Institute of Technology (KIT), Karlsruhe, Germany
+      year: 2022
+      description:
+        - "Title: LiDAR Domain Adaptation - Automotive 3D Scene Understanding"
+        - Research conducted at Mercedes-Benz Research and Development
+    - title: "Master of Science (M.Sc.): Electrical Engineering and Information Technology"
+      institution: University of Stuttgart, Stuttgart, Germany
+      year: 2018
+    - title: "Bachelor of Science (B.Sc.): Electrical Engineering and Information Technology"
+      institution: University of Stuttgart, Stuttgart, Germany
+      year: 2016
+
+- title: Professional Experience
+  type: time_table
+  contents:
+    - title: Self-Employed Software Developer and IT Consultant
+      institution: Freelancer at Intervall, Stuttgart, Germany
+      year: 11/2022 - today
+
+    - title: Senior Machine Learning Engineer
+      institution: Research and Development Mercedes-Benz AG, Stuttgart, Germany
+      year: 10/2021 - today
+
+    - title: Doctoral Researcher on Deep Generative Models
+      institution: Research and Development Mercedes-Benz AG, Stuttgart, Germany
+      year: 12/2018 - 09/2021
+
+- title: Student Experience
+  type: time_table
+  contents:
+    - title: Master Thesis Student, LiDAR Perception
+      institution: Research and Development Mercedes-Benz AG, Stuttgart, Germany
+      year: 04/2018 - 10/2018
+
+    - title: Visiting Research Student, Deep Learning
+      institution: Tokyo Institute of Technology, Tokyo, Japan
+      year: 10/2017 - 03/2018
+
+    - title: Part-time Student Employee, Vehicle Perception
+      institution: Research and Development Daimler AG, Stuttgart, Germany
+      year: 10/2016 - 10/2017
+
+    - title: Visiting Research Student, Computer Vision
+      institution: Voxar Labs, Federal University of Pernambuco, Recife, Brazil
+      year: 04/2016 - 09/2016
+
+    - title: Part-time Student Employee, Automotive Networks
+      institution: Robert Bosch GmbH, Stuttgart, Germany
+      year: 10/2015 - 02/2016
+    
+    - title: Teaching Assistant
+      institution: University of Stuttgart, Stuttgart, Germany
+      year: 05/2014 - 07/2015
+
+- title: Personal and Professional Training
+  type: time_table
+  contents:
+    - title: Bronnbacher Scholarship
+      year: 04/2022 - today
+
+    - title: Academy “Leadership and Personality”
+      year: 09/2021
+    
+    - title: Leadership Talent Academy (LTA)
+      year: 10/2020 - 02/2021
+
+    - title: International Computer Vision Summer School (ICVSS)
+      year: 07/2019
+    
+    - title: Junior Mentoring Tandem (JUMETA)
+      year: 10/2014 - 07/2015
+    
+    - title: Student Engineering Academy
+      year: 09/2010 - 07/2011
+
+- title: Certificates
+  type: time_table
+  contents:
+    - year: 2020
+      items:
+        - "Coursera: “Graph Search, Shortest Paths, and Data Structures”"
+        - "Coursera: “Divide and Conquer, Sorting and Searching, and Randomized Algorithms”"
+    - year: 2018
+      items:
+        - "University of Stuttgart: Certificate for Intercultural Competence and Internationality"
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2018
+      items: 
+        - 2nd place in ZEISS Robotics Innovation Competition in team of four student members
+    - year: 2017
+      items:
+        - Baden-Württemberg Scholarshop for funding exchange semester in Japan
+    - year: 2016
+      items: 
+        - Women STEM Award for outstanding Bachelor’s Thesis in the field of automotive technologies granted by aud!max MEDIEN and Deutsche Telekom
+        - CNPq scholarship for visiting researchers in Brazil
+    - year: 2015
+      items:
+        - Bosch alumni network (students@bosch) for top 5% students that worked at Robert Bosch GmbH
+
+- title: Other Interests
+  type: list
+  contents:
+    - traveling, hiking, running, dancing, singing, eating
