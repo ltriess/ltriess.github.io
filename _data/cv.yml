@@ -95,6 +95,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2023
+      items:
+        - Finalist for the <a href=https://kicamp.org/en/ki-camp-2023/ai-newcomers-2023>AI Newcomer Award</a> of the German Informatics Society in the category Technical and Engineering Sciences
     - year: 2018
       items: 
         - 2nd place in ZEISS Robotics Innovation Competition in team of four student members
