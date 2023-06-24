@@ -32,6 +32,11 @@
     - title: Doctoral Researcher on Deep Generative Models
       institution: Research and Development Mercedes-Benz AG, Stuttgart, Germany
       year: 12/2018 - 09/2021
+      description:
+        - semantic segmentation of LiDAR point clouds for automated driving
+        - synthesizing realistic 3D data with deep generative models
+        - quantifying the quality of LiDAR data for downstream perception
+        - using scene geometry to learn domain-invariant semantic features
 
 - title: Student Experience
   type: time_table
