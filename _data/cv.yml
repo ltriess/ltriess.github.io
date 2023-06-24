@@ -1,4 +1,4 @@
-- title: Larissa Triess
+- title: Dr. Larissa Triess
   type: list
   contents: Machine Learning Engineer | Product Owner for Perception, Fusion, Prediction | PhD supervisor
 
@@ -9,7 +9,7 @@
       institution: Karlsruhe Institute of Technology (KIT), Karlsruhe, Germany
       year: 2022
       description:
-        - "Title: LiDAR Domain Adaptation - Automotive 3D Scene Understanding"
+        - "Title: <a href=https://publikationen.bibliothek.kit.edu/1000158328>LiDAR Domain Adaptation - Automotive 3D Scene Understanding</a>"
         - Research conducted at Mercedes-Benz Research and Development
     - title: "Master of Science (M.Sc.): Electrical Engineering and Information Technology"
       institution: University of Stuttgart, Stuttgart, Germany
