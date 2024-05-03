@@ -1,6 +1,6 @@
 - title: Dr. Larissa Triess
   type: list
-  contents: Machine Learning Engineer | Product Owner for Perception, Fusion, Prediction | PhD supervisor
+  contents: Machine Learning Engineer | University Lecturer | PhD supervisor
 
 - title: Education
   type: time_table
@@ -21,14 +21,20 @@
 - title: Professional Experience
   type: time_table
   contents:
-    - title: Machine Learning Engineer
+    - title: Lecturer
+      institution: University of Stuttgart, Stuttgart, Germany
+      year: 04/2024 - today
+      description:
+        - lecturer for the Master's course "Advanced Visual Processing" at the department of Electrical Engineering
+
+    - title: Machine Learning Engineer for Automated Driving
       institution: Research and Development Mercedes-Benz AG, Stuttgart, Germany
       year: 10/2021 - today
       description:
-        - product owner for perception, fusion, and prediction for L4 automated parking and driving
+        - technical lead of an international SW development team for L3 highway driving with Nvidia [Feb 2024 - present]
+        - algorithm developer and product owner for perception and fusion for L4 automated driving [Oct 2021 - Apr 2024]
         - work package lead in publicly funded research project "STADT:up"
         - supervision of PhD student with research on open world scene understanding
-        - previously product owner for automatic label generation and machine learning enablement for 3D obstacle detection
 
     - title: Self-Employed Software Developer and IT Consultant
       institution: Freelancer at Intervall, Stuttgart, Germany
@@ -74,8 +80,11 @@
 - title: Personal and Professional Training
   type: time_table
   contents:
+    - title: Bertha's Daugthers Mentoring Program
+      year: 04/2024 - today
+
     - title: Bronnbacher Scholarship
-      year: 04/2022 - today
+      year: 04/2022 - 07/2023
 
     - title: Academy “Leadership and Personality”
       year: 09/2021
