@@ -11,6 +11,7 @@ nav_order: 4
 * Member of the advisory board of the [Leadership Talent Lab](https://www.hoc.kit.edu/ltl.php) at the Karlsruhe Institute of Technology
 
 ### talks and lectures
+* An End-to-End differentiable stack for Automated Driving, Autonomous Driving Meetup, Ehningen, Germany, February 2024
 * Von Sensoren bis zur Entscheidungsfindung: Das komplexe Gehirn autonomer Fahrzeuge, VDI Wissensforum - Umfelderfassung im Fahrzeug, Nürnberg, Germany, November 2023
 * Von Sensoren bis zur Entscheidungsfindung: Das komplexe Gehirn autonomer Fahrzeuge, Esslingen University, Stuttgart, Germany, November 2023
 * Guest Lectures on Image Segmentation and (Convolutional) Neural Networks in course "Digital Image Processing", University of Stuttgart, Germany, June 2023
@@ -21,6 +22,7 @@ nav_order: 4
 * Deep domain adaptation for LiDAR perception, Workshop Autonomy at Scale, Intelligent Vehicles Symposium (IV), virtual, June 2021 ([more](https://www.ki-deltalearning.de/event?tx_news_pi1%5Bnews%5D=41&cHash=b097750dd2e4162b6171883b9682cbf5))
 
 ### organizer and editor
+* IEEE Intelligent Vehicles Symposium, Area Chair
 * Third Workshop Autonomy@Scale, IEEE Intelligent Vehicles Symposium, Associate Editor and Organizer, Anchorage, USA, June 2023 ([more](https://sites.google.com/view/autonomyatscale2023))
 * Second Workshop Autonomy@Scale, IEEE Intelligent Vehicles Symposium, Associate Editor and Organizer, Aachen, Germany, June 2022 ([more](https://www.ki-deltalearning.de/iv2022-2nd-ws-autonomyatscale))
 
