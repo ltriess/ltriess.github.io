@@ -22,6 +22,7 @@ nav_order: 4
 * Deep domain adaptation for LiDAR perception, Workshop Autonomy at Scale, Intelligent Vehicles Symposium (IV), virtual, June 2021 ([more](https://www.ki-deltalearning.de/event?tx_news_pi1%5Bnews%5D=41&cHash=b097750dd2e4162b6171883b9682cbf5))
 
 ### organizer and editor
+* Workshop Safe and Robust Robot Learning for Operation in the Real World (SAFE-ROL), Conference on Robot Learning (CoRL), Co-Organizer, Munich, Germany, November 2024 ([more](https://sites.google.com/view/corl-2024-safe-rol-workshop))
 * IEEE Intelligent Vehicles Symposium, Area Chair
 * Third Workshop Autonomy@Scale, IEEE Intelligent Vehicles Symposium, Associate Editor and Organizer, Anchorage, USA, June 2023 ([more](https://sites.google.com/view/autonomyatscale2023))
 * Second Workshop Autonomy@Scale, IEEE Intelligent Vehicles Symposium, Associate Editor and Organizer, Aachen, Germany, June 2022 ([more](https://www.ki-deltalearning.de/iv2022-2nd-ws-autonomyatscale))

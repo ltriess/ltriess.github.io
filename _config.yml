@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Larissa
 middle_name: T.
 last_name: Triess
-email: mail@triess.eu
+email: larissa.triess@mercedes-benz.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Larissa Triess - Machine Learning Engineer at Mercedes-Benz AG
 footer_text: >
@@ -15,7 +15,7 @@ footer_text: >
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🦩  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://ltriess.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
